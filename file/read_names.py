@@ -14,7 +14,7 @@ with open("names.txt", "r") as file:
 
 names = []
 
-with open("names.txt") as file:
+with open("file/names.txt") as file:
     for line in file:
         names.append(line.rstrip())
 
