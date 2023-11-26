@@ -44,3 +44,7 @@ def get_student():
 
 if __name__ == "__main__":
     main()
+"""
+Here we have get_student method outside student class which is the evidence of bad design, where related functions
+should not be separated (practicing OOP) insted it should be encapsulated. i.e in Student class. Eg: in student5.py
+"""
